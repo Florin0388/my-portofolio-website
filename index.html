@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Florin Zugrava</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <button
+        class="visit-btn"
+        onclick="window.location.href='https://github.com/Florin0388/';"
+        target="_blank"
+      >
+        Visit Github
+      </button>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="eu-profile.png" alt="" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Florin Zugrava</h1>
+            <span>Junior Web Developer</span>
+          </div>
+
+          <div class="btn-group">
+            <a
+              href="CV- Zugrava Florin-Ionut.pdf"
+              class="btn"
+              download="CV-Zugrava Florin-Ionut.pdf"
+              >Download CV</a
+            >
+            <div class="btn">Contact</div>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/Florin0388" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/florin-ionut-zugrava-78983726a/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>HTML</span>
+            <h3>1 Years</h3>
+            <p>
+              I use HTML to build the structure of a web page, organizing
+              content into headings, paragraphs, lists, images, and links. I
+              feel comfortable using HTML tags to create well-structured and
+              accessible web pages.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-solid fa-file-code"></i>
+            <span>CSS</span>
+            <h3>1 Years</h3>
+            <p>
+              I work with CSS to make web page design more attractive and
+              functional. I have experience in applying responsive layouts,
+              using flexbox and grid, and creating animations to improve user
+              interaction.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop"></i>
+            <span>JAVASCRIPT</span>
+            <h3>1 Years</h3>
+            <p>
+              I developed skills in DOM manipulation, event handling and working
+              with APIs. I can create dynamic functionality on websites such as
+              interactive forms, data validations and animations.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-solid fa-list"></i>
+            <span>MYSQL</span>
+            <h3>1 Years</h3>
+            <p>
+              I learned to write SQL queries to manipulate data (insert, update,
+              delete), create and manage databases, tables and relationships,
+              and optimize query performance.
+            </p>
+          </div>
+        </div>
+
+        <img src="eu-profile.png" alt="" />
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="calculator salariu.png" alt="" />
+          <h3>Net Salary Calculator</h3>
+          <p>
+            I have created a simple application in JavaScript for calculating
+            net salary. The user enters the gross salary and the app
+            automatically calculates taxes (such as income tax and social
+            security contributions) and then returns the net salary. We used
+            HTML forms to collect the data and the calculation logic is handled
+            by JavaScript functions. The app provides instant feedback to the
+            user and can be customized to accommodate different charging
+            systems.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="cat website.png" alt="" />
+          <h3>Cat Breeds Website</h3>
+          <p>
+            I created a site dedicated to cat lovers using HTML, CSS and
+            JavaScript. The page provides information on different cat breeds,
+            image galleries and helpful articles on caring for them. HTML is
+            used for page structure, CSS for an attractive and responsive
+            design, and JavaScript adds interactive functionality such as an
+            image carousel and a newsletter subscription form. The site is easy
+            to navigate and optimized for all devices.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="list price.png" alt="" />
+          <h3>List Price in Javascript</h3>
+          <p>
+            I developed an application for managing a price list using
+            JavaScript, with a modern design made with Bootstrap. The
+            application allows the user to add, edit, delete and search for
+            products in the price list. Each product includes a name and a
+            price, and the interaction is handled dynamically through JavaScript
+            functions. Bootstrap's responsive design ensures a pleasant
+            experience on any device, while interactive features make list
+            management intuitive and efficient.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="input">
+          <input type="text" placeholder="example@email.com" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="btn">Submit</div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">&copy; All Rights Reserved | Florin Zugrava</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
